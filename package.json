@@ -1,0 +1,15 @@
+{
+  "name": "find_wallets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "find.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "path": "^0.12.7"
+  }
+}
