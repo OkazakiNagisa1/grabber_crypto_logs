@@ -27,7 +27,7 @@ let walk = function(dir, done) {
   });
 };
 
-let folders = ["Crypto Wallet", "ColdWallets", "Crypto Wallets", "Coins", "cryptocurrency", "Wallets"];
+let folders = ["Crypto Wallet", "ColdWallets", "Crypto Wallets", "Coins", "cryptocurrency", "Wallets", "coldwallets"];
 
 walk('./logs', function(err, results) {
   if (err) throw err;
