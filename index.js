@@ -35,7 +35,7 @@ walk('./logs', function(err, results) {
 	  try{
 		  for( folder of folders) {
 			  let slash_str = strPath.split('\\').length;
-		if(strPath.split('\\')[slash_str-1] == folder){
+		if(strPath.split('\\')[slash_str-1].toLowerCase() == folder.toLowerCase()){
 		                fs.copy(strPath.split('\\' + strPath.split('\\')[slash_str-1])[0], `./crypto/${strPath.split('\\')[slash_str-2]}`, function (err) {
   if (err) return console.log(err)
       console.log(`Copy ${strPath.split('\\')[slash_str-2]}`);
